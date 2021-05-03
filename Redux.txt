@@ -1,0 +1,28 @@
+--------   Redux   -------
+redux is state mangement tool "mtlb kae ap react kii state kesay mange kar sakty han"
+
+1) Redux khata han ma apko ek location data ho jisko ma "Store" khata ho jisko be state chahiye ma directly pochadu ga
+
+2) Redux khata han agar apko koe deta change be karna han ap nai jo store banya han mujha khayn ma change karo ga apnai meray store sa jo jo state change kare han ma waha waha sa change value du ga
+
+What is Redux..?
+
+ans) Redux is simple javascript library..
+
+Redux ---Flow----.?
+
+Provider:
+   A wrapper that will make the central store to all compoent tree like App compoent wrapper and use all compoents use states in store
+
+Store:
+  A central location that holds state
+
+Reducer:
+ A component that is only allow to change the state. there can be many reducers e.g.
+customerReducer,ItemReducer,studentReducer etc....
+
+Action:
+ action kar through hum reducer ko bata rahay hoty han ya action perform karo merii state ma .... A simple JS object that inform Reducer what part of state need to be changed and what type of change to carry out.
+
+Dispatch:
+ A function that carries an action from react compoent to reducer. Dispatch ek aisa messanger han humari request jo hum nai action object ma Reducer tak pochae han wo dispatch ka kaam han usay receive karay or Reducer kae pass jaa kar pocha day. Reducer sa jo wo dispatch function ko mangta han agar Dispatch function meray pass kuch lay kar ay ga ma change kardu ga wo sarii chezyn hum dispatch function kae through Reducer tak pochtay han yanii Action ko hum dispatch function kae through dispatch tak poctay han. 
