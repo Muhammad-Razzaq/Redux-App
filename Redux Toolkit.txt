@@ -1,0 +1,21 @@
+------- Redux Toolkit -----
+-- Redux get errnoneous/galtiyan when dealing with huge application.
+-- It is not easy to create and manage hundreds of action in any application.
+-- Some may like to create action creator function, some may use action object directly.
+-- Some may not use type as a key name in action object.
+-- Redux Toolkit helped to standardize the way to use redux,
+
+------ Redux vs Redux Toolkit -------
+Redux
+-- createStore
+-- Manually create Action Creator functions
+-- Manually created reducer with switch case
+
+Redux Toolkit
+-- configureStore
+-- createAction
+-- createReducer
+-- createSlice
+* A new feature that accepts an initial state and holder reducer and creator action creator itself.
+(createSlice kehta hay mughay initial value day do reducer bhi mughay day to creator bhi mughay day do sub
+cheezayn mughay do main khud management kr k dnga)  
